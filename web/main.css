@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Verdana;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+table {
+    border: 1px solid black;
+    margin: auto;
+}
+
+table td {
+    padding: 2px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.input {
+    font-size: 20px;
+}
+
+p {
+    font-size: 30px;
+}

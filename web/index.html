@@ -1,0 +1,36 @@
+<!--
+    Henrik Berg, February 8th, 2018
+    index.html
+    This web application uses JSP and SQL to manipulate a database
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- Header -->
+        <h1>JSP & SQL</h1>
+        <p>Please select an option below.</p>
+        <!-- Buttons for different actions -->
+        <form action="input.jsp">
+            <input type="submit" value="Insert into Table">
+            <br><br>
+        </form>
+        <form action="update.jsp">
+            <input type="submit" value="Update Table">
+            <br><br>
+        </form>
+        <form action="delete.jsp">
+            <input type="submit" value="Delete from Table">
+            <br><br>
+        </form>
+        <form action="output.jsp">
+            <input type="submit" value="View Table">
+            <br><br>
+        </form>
+    </body>
+</html>
